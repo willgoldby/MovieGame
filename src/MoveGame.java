@@ -28,14 +28,14 @@ public class MoveGame {
     }
 
     // Gets a random number between 0 and the number of movies
-    int randomNumber = ThreadLocalRandom.current().nextInt(1, counter + 1);
+    int randomNumber = ThreadLocalRandom.current().nextInt(0, counter + 1);
 
     // System.out.println(randomNumber);
     // System.out.println(movieTitlesList.get(randomNumber));
 
     // Gets the name of a random movie
     String randomMovie = movieTitlesList.get(randomNumber);
-    System.out.println(randomMovie);
+    
 
     // Declares variable to hold movie name as a series of underscores
     StringBuilder movieNameInUnderscores = new StringBuilder();
