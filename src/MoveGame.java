@@ -52,8 +52,8 @@ public class MoveGame {
     System.out.println(movieNameInUnderscores);
 
     // Starts the guessing game
-    int k=0;
-    while(k<10){
+     Boolean won = false;
+    for(int userGuess=0; userGuess<=10; userGuess++){
       // Test for a win
       if(movieNameInUnderscores.toString().contains("-")){
         // Gets user input
@@ -71,21 +71,18 @@ public class MoveGame {
 
       }else{
         System.out.println("YOU WON!");
+        won = true;
         break;
       }
 
       System.out.println(movieNameInUnderscores);
-      k++;
-      System.out.println("You have " + (10-k) + " more guesses.");
+      System.out.println("You have " + (10-userGuess) + " more guesses.");
 
     }
 
     // When user runs out of guesses
-    System.out.println("You lost :(");
-
+      if(!won){
+        System.out.println("You lost :(");
+      }
+    }
   }
-
-
-
-
-}
