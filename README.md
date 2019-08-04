@@ -5,7 +5,6 @@ The player has 10 guesses to guess the name of the movie.
 For exmample, the game begins like so:
 
 "You have 10 guesses"
---- ----
 "What's your guess?"
 User: "B"
 B-- ---
