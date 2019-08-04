@@ -1,4 +1,8 @@
-# MovieGame
+# Overview
+
+A simple Java app I wrote that was part of an "Introduction to Java" tutorial.  
+
+## MovieGame
 
 A hangman-like game that generates a movie name with letter replaced with underscores. 
 The player has 10 guesses to guess the name of the movie. 
