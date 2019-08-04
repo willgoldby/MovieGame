@@ -1,4 +1,5 @@
 # MovieGame
+
 A hangman-like game that generates a movie name with letter replaced with underscores. 
 The player has 10 guesses to guess the name of the movie. 
 For exmample, the game begins like so:
